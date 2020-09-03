@@ -28,6 +28,7 @@ public class SpiralArray
             Console.WriteLine();
         }
     }
+    
     static int[,] GetSprialArray(int n)
     {
         var matrix = new int[n,n];
