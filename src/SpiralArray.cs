@@ -1,5 +1,7 @@
 using System;
 
+// Facebook Sample Interview questions - Question 1: 2D Spiral Array
+// Reference: https://www.facebook.com/careers/life/sample_interview_questions
 public class SpiralArray
 {
     static void Main(string[] args)
