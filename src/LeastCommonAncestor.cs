@@ -1,3 +1,4 @@
+// This soluction hasn't been verified.
 public class LeastCommonAncestor
 {
     public static void Main(string[] args)
@@ -8,13 +9,6 @@ public class LeastCommonAncestor
         TreeNode curentNode = root;
         
         InsertNode(root, currentNode, 0, args);
-        
-        
-        // for(var i = 0; i < args.Length; i++)
-        // {   
-        //     Solution.InsertNode(root, index, val);
-        //     index++;
-        // }
 
     }
     
@@ -36,9 +30,6 @@ class Solution {
 
         currentNode.left(InsertNode(root, currentNode, count+1, val));
         currentNode.right(InsertNode(root, currentNode, count+2, val));
-            
-        
-
     }
     public int lca(TreeNode A, int B, int C) {
         if( hasNode(A.left, B) )
